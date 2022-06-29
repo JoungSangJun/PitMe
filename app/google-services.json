@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687741219687",
+    "project_id": "pitmeproject",
+    "storage_bucket": "pitmeproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687741219687:android:35a210f22553f2bd1af5c2",
+        "android_client_info": {
+          "package_name": "ac.baekseok.pitmeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687741219687-s65n52icgudeja9s8ibkl949fje4oe0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsWLQHxmHr4nwIwZd3ejMd4KHuSlUluXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687741219687-s65n52icgudeja9s8ibkl949fje4oe0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

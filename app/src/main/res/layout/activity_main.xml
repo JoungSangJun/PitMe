@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="#00E5ff"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="FitMe"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <ImageView
+            android:id="@+id/imgModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/model_white" />
+
+        <ImageView
+            android:id="@+id/imgTop"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="25dp" />
+
+        <ImageView
+            android:id="@+id/imgBottom"
+            android:layout_width="230dp"
+            android:layout_height="340dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="165dp" />
+
+
+    </FrameLayout>
+
+
+    <!--메뉴버튼-->
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_open"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/ic_menu"
+                tools:ignore="MissingConstraints" />
+
+
+            <Switch
+                android:id="@+id/swBlackMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:switchMinWidth="60dp"
+                android:thumbTint="#00E5ff"
+                android:track="@drawable/switch_track_selector" />
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:text="새로고침"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSaveImg"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:text="사진저장"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_TopMenuOpen"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_shape"
+                android:text="상  의"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_BottomMenuOpen"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:background="@drawable/button_shape"
+                android:text="하  의"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <include layout="@layout/menu_drawer" />
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/bottom_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#00E5ff"
+                app:itemIconTint="#FFFFFF"
+                app:itemTextColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:menu="@menu/bottom_menu"
+                tools:layout_editor_absoluteX="-26dp" />
+
+        </LinearLayout>
+
+
+        <include layout="@layout/menu_bottom_drawer" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

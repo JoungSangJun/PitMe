@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#D8FFFFFF"
+            android:textStyle="bold"
+            android:textColor="#55C2DF"/>
+
+        <Button
+            android:id="@+id/btn_idSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디찾기"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#D8FFFFFF"
+            android:textStyle="bold"
+            android:textColor="#55C2DF"/>
+
+        <Button
+            android:id="@+id/btn_pwdSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 찾기"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="5dp"
+            android:backgroundTint="#D8FFFFFF"
+            android:textStyle="bold"
+            android:textColor="#55C2DF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="12dp"
+            android:inputType="textEmailAddress"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="이메일을 입력하시오."
+            android:textColorHint="#8A8989"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="10dp"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:background="@drawable/custom_input"
+            android:hint="비밀번호를 입력하시오."
+            android:textColorHint="#8A8989"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#D8FFFFFF"
+            android:text="로그인"
+            android:textStyle="bold"
+            android:textColor="#55C2DF"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

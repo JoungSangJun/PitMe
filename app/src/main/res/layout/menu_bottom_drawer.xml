@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_drawer1"
+    android:layout_width="411dp"
+    android:layout_height="130dp"
+    android:layout_gravity="right"
+    android:background="#00E5ff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+
+        <Button
+            android:id="@+id/btn_Up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="↑"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="↓"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="←"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="→"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="X"
+            android:textColor="#00E5ff" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_length_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="길이 ↑"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_length_down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="길이 ↓"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_width_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="넓이 ↑"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_width_down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/menu_bottom_button_shape"
+            android:text="넓이 ↓"
+            android:textColor="#00E5ff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1635" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/bottom_corners.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/button_shape.xml" value="0.1495" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/custom_input.xml" value="0.1635" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_cloth.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_community.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_cut.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_email.xml" value="0.1635" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_house.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_lock.xml" value="0.1635" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/ic_name.xml" value="0.1565" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/menu_bottom_button_shape.xml" value="0.146" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/switch_track_off.xml" value="0.1495" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/switch_track_on.xml" value="0.1495" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/switch_track_selector.xml" value="0.1495" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/drawable/textview_edge.xml" value="0.133" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_add_photo.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_announce.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_cloth.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_community.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_cut.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_password_reset.xml" value="0.20969202898550723" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_profile.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/activity_register.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/appbar.xml" value="0.2390625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/frag0.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/frag1.xml" value="0.2390625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/frag2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/frag3.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/header.xml" value="0.2390625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/menu_bottom_drawer.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/layout/menu_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/menu/bottom_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/menu/drawerlayout.xml" value="0.2390625" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/menu/tap_corners.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.148" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/PitMeProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1235" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
